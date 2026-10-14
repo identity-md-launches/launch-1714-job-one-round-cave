@@ -1,0 +1,9 @@
+{
+  "piece": "Code Targets",
+  "suite": "line-3/tools/code-targets",
+  "tests_passed": 14,
+  "exit": 0,
+  "local_checks_only": true,
+  "result": "test_anchor_binding_and_limits (test_code_targets.TargetsTests.test_anchor_binding_and_limits) ... ok\ntest_cli_success_refusal_and_no_writes (test_code_targets.TargetsTests.test_cli_success_refusal_and_no_writes) ... ok\ntest_every_call_beyond_preview (test_code_targets.TargetsTests.test_every_call_beyond_preview) ... ok\ntest_input_and_output_independent (test_code_targets.TargetsTests.test_input_and_output_independent) ... ok\ntest_invalid_proofs_before_inventory (test_code_targets.TargetsTests.test_invalid_proofs_before_inventory) ... ok\ntest_low160_grouping_retains_full_words (test_code_targets.TargetsTests.test_low160_grouping_retains_full_words) ... ok\ntest_pc_semantics_preserved (test_code_targets.TargetsTests.test_pc_semantics_preserved) ... ok\ntest_push_data_not_calls (test_code_targets.TargetsTests.test_push_data_not_calls) ... ok\ntest_random_generated_calls_independent_oracle (test_code_targets.TargetsTests.test_random_generated_calls_independent_oracle) ... ok\ntest_real_offline_demo (test_code_targets.TargetsTests.test_real_offline_demo) ... ok\ntest_runtime_refusals (test_code_targets.TargetsTests.test_runtime_refusals) ... ok\ntest_sorted_addresses_and_ascending_sites (test_code_targets.TargetsTests.test_sorted_addresses_and_ascending_sites) ... ok\ntest_unresolved_including_after_stop (test_code_targets.TargetsTests.test_unresolved_including_after_stop) ... ok\ntest_zero_operand_is_not_filled_in (test_code_targets.TargetsTests.test_zero_operand_is_not_filled_in) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 4.977s\n\nOK\n",
+  "demo_passed": true
+}

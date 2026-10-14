@@ -1,0 +1,30 @@
+{
+  "ancestor_sha256": "a9b8f042ac23007e83f4aa383d201e7dfa1a0385a636940d2a460744e1873227",
+  "generated_sha256": "b5797f8fd4bfb66f3b1f0b3b1eab3e98f4380925e1ab6e2298082ef6c1e0e693",
+  "wall_sha256": "d7d0a788e7737251c0e65f3fd6508d6a4b9099f259607f6bbc8bf576d8efa1ac",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "addition_box": [
+    230,
+    275,
+    360,
+    425
+  ],
+  "changed_pixels": 3316,
+  "changed_pixels_outside_addition": 0,
+  "thumbnail": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 61002
+  },
+  "manual_review_pending": false,
+  "unmet_visual_requirements": [],
+  "manual_review": "Full final wall and thumbnail inspected; inherited five-digit hands unchanged; no unmet visual requirements observed."
+}

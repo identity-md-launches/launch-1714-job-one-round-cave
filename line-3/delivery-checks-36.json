@@ -1,0 +1,16 @@
+{
+  "record_count": 36,
+  "new_record": "36",
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "record_shape_valid": true,
+  "wall_hash_matches_record": true,
+  "wall_outputs_identical": true,
+  "local_checks_only": true,
+  "tests_passed": 14,
+  "all_new_source_files_under_100kb": true,
+  "changed_paths_within_scope": true,
+  "ancestor_runtime_dependencies_tracked": true,
+  "wall_pngs_untracked": true,
+  "commit_status": "Not committed: sandbox Git metadata is read-only; files left for daemon collection."
+}
