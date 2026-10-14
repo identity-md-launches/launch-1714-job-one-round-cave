@@ -1,0 +1,33 @@
+{
+  "source_sha256": "e1c40eb7b5c9da17cb401992ec03baadcc766ca31b38cc8bc8a5c827bc4e601f",
+  "output_sha256": "74779548629d6ae67eaeb8e8ac7f1452a396878ca7b606c34b3d9fd753aab493",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "placement": [
+    545,
+    790,
+    165,
+    78
+  ],
+  "changed_pixels": 5052,
+  "outside_placement_unchanged": true,
+  "insert_alpha_bounds": [
+    197,
+    275,
+    1578,
+    644
+  ],
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 57444
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Inspected the complete final PNG and JPEG. The inherited warm rough cave, square framing, central Pepe and all ancestral motifs remain. The new compact ochre and charcoal motif sits on lower bare rock; it adds no figure or hand. Pepe's inherited wide mouth and heavy-lidded eyes remain, and inherited hands and stencil retain five digits each. No letters, numbers, captions, signature, logo, watermark, added border, frame, real person or prohibited symbol observed. Pixel comparison confirms no change outside the new placement rectangle. Local visual judgment is not independent certification; the JPEG thumbnail loses fine pigment detail."
+}

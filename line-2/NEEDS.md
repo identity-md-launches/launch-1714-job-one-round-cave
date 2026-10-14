@@ -1,0 +1,1 @@
+No separate coin is needed for ERC-20 allowance inventory and same-block spender-code inspection. Both existing ZTO and optional IMD are sufficient for this line's read-only tools; no new token or deployment is requested.
