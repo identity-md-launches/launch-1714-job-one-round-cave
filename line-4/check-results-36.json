@@ -1,0 +1,79 @@
+{
+  "network_used": false,
+  "suites": [
+    {
+      "suite": "return-relations",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/return-relations",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests": 19,
+      "output": "test_all_operators (test_return_relations.ReturnRelationsTests.test_all_operators) ... ok\ntest_changed_unreferenced_member (test_return_relations.ReturnRelationsTests.test_changed_unreferenced_member) ... ok\ntest_cli_exit_codes_and_duplicate_keys (test_return_relations.ReturnRelationsTests.test_cli_exit_codes_and_duplicate_keys) ... ok\ntest_demo_offline (test_return_relations.ReturnRelationsTests.test_demo_offline) ... ok\ntest_duplicate_and_unused_layouts (test_return_relations.ReturnRelationsTests.test_duplicate_and_unused_layouts) ... ok\ntest_equality_and_inclusive_boundary (test_return_relations.ReturnRelationsTests.test_equality_and_inclusive_boundary) ... ok\ntest_every_relation_must_pass (test_return_relations.ReturnRelationsTests.test_every_relation_must_pass) ... ok\ntest_expiry_and_future_review (test_return_relations.ReturnRelationsTests.test_expiry_and_future_review) ... ok\ntest_immutable_inputs (test_return_relations.ReturnRelationsTests.test_immutable_inputs) ... ok\ntest_missing_sender_and_revert (test_return_relations.ReturnRelationsTests.test_missing_sender_and_revert) ... ok\ntest_missing_unreferenced_member (test_return_relations.ReturnRelationsTests.test_missing_unreferenced_member) ... ok\ntest_noncanonical_and_extra_return_bytes (test_return_relations.ReturnRelationsTests.test_noncanonical_and_extra_return_bytes) ... ok\ntest_policy_substitution (test_return_relations.ReturnRelationsTests.test_policy_substitution) ... ok\ntest_real_zto (test_return_relations.ReturnRelationsTests.test_real_zto) ... ok\ntest_references_and_operator_refusals (test_return_relations.ReturnRelationsTests.test_references_and_operator_refusals) ... ok\ntest_schema_and_layout_refusals (test_return_relations.ReturnRelationsTests.test_schema_and_layout_refusals) ... ok\ntest_signed_and_tuple_index (test_return_relations.ReturnRelationsTests.test_signed_and_tuple_index) ... ok\ntest_units_must_match (test_return_relations.ReturnRelationsTests.test_units_must_match) ... ok\ntest_unknown_plan_member (test_return_relations.ReturnRelationsTests.test_unknown_plan_member) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.039s\n\nOK\n"
+    },
+    {
+      "suite": "set-expiry",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/set-expiry",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests": 21,
+      "output": "test_age_limits (test_set_expiry.SetExpiryTests.test_age_limits) ... ok\ntest_block_timestamp_range (test_set_expiry.SetExpiryTests.test_block_timestamp_range) ... ok\ntest_cli_invalid_input (test_set_expiry.SetExpiryTests.test_cli_invalid_input) ... ok\ntest_demo_without_network_or_clock (test_set_expiry.SetExpiryTests.test_demo_without_network_or_clock) ... ok\ntest_expiry_boundary_inclusive (test_set_expiry.SetExpiryTests.test_expiry_boundary_inclusive) ... ok\ntest_future_block (test_set_expiry.SetExpiryTests.test_future_block) ... ok\ntest_hash_binds_review_time_window_and_plan (test_set_expiry.SetExpiryTests.test_hash_binds_review_time_window_and_plan) ... ok\ntest_inputs_unchanged_and_order_independent (test_set_expiry.SetExpiryTests.test_inputs_unchanged_and_order_independent) ... ok\ntest_mismatch_even_when_fresh_or_expired (test_set_expiry.SetExpiryTests.test_mismatch_even_when_fresh_or_expired) ... ok\ntest_missing_call_even_when_expired (test_set_expiry.SetExpiryTests.test_missing_call_even_when_expired) ... ok\ntest_missing_sender_does_not_pass_freshness (test_set_expiry.SetExpiryTests.test_missing_sender_does_not_pass_freshness) ... ok\ntest_parser_refuses_duplicate_keys_nonfinite_and_external_paths (test_set_expiry.SetExpiryTests.test_parser_refuses_duplicate_keys_nonfinite_and_external_paths) ... ok\ntest_real_cli_check_and_expired_exit (test_set_expiry.SetExpiryTests.test_real_cli_check_and_expired_exit) ... ok\ntest_real_set (test_set_expiry.SetExpiryTests.test_real_set) ... ok\ntest_revert (test_set_expiry.SetExpiryTests.test_revert) ... ok\ntest_strict_policy_fields_schema_and_size (test_set_expiry.SetExpiryTests.test_strict_policy_fields_schema_and_size) ... ok\ntest_timestamps_are_canonical_bounded_quantities (test_set_expiry.SetExpiryTests.test_timestamps_are_canonical_bounded_quantities) ... ok\ntest_unexpected_and_duplicate_entries (test_set_expiry.SetExpiryTests.test_unexpected_and_duplicate_entries) ... ok\ntest_uppercase_hex_is_normalized (test_set_expiry.SetExpiryTests.test_uppercase_hex_is_normalized) ... ok\ntest_wrong_block_cannot_use_plan_timestamp (test_set_expiry.SetExpiryTests.test_wrong_block_cannot_use_plan_timestamp) ... ok\ntest_zero_window (test_set_expiry.SetExpiryTests.test_zero_window) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.030s\n\nOK\n"
+    },
+    {
+      "suite": "rehearsal-set",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/rehearsal-set",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests": 27,
+      "output": "test_bad_return_interpretation_is_inconclusive (test_rehearsal_set.RehearsalSetTests.test_bad_return_interpretation_is_inconclusive) ... ok\ntest_chain_boolean_and_wrong_chain_rejected (test_rehearsal_set.RehearsalSetTests.test_chain_boolean_and_wrong_chain_rejected) ... ok\ntest_changed_block_fields (test_rehearsal_set.RehearsalSetTests.test_changed_block_fields) ... ok\ntest_changed_caller_target_data_value (test_rehearsal_set.RehearsalSetTests.test_changed_caller_target_data_value) ... ok\ntest_changed_return (test_rehearsal_set.RehearsalSetTests.test_changed_return) ... ok\ntest_cli_demo_has_no_network (test_rehearsal_set.RehearsalSetTests.test_cli_demo_has_no_network) ... ok\ntest_cli_exit_categories (test_rehearsal_set.RehearsalSetTests.test_cli_exit_categories) ... ok\ntest_does_not_mutate_inputs (test_rehearsal_set.RehearsalSetTests.test_does_not_mutate_inputs) ... ok\ntest_duplicate_ids_rejected_in_both_inputs (test_rehearsal_set.RehearsalSetTests.test_duplicate_ids_rejected_in_both_inputs) ... ok\ntest_expected_false_only_means_bytes_match (test_rehearsal_set.RehearsalSetTests.test_expected_false_only_means_bytes_match) ... ok\ntest_identifiers (test_rehearsal_set.RehearsalSetTests.test_identifiers) ... ok\ntest_invalid_extra_entry_is_validated (test_rehearsal_set.RehearsalSetTests.test_invalid_extra_entry_is_validated) ... ok\ntest_mismatch_takes_precedence_over_missing (test_rehearsal_set.RehearsalSetTests.test_mismatch_takes_precedence_over_missing) ... ok\ntest_missing_call_withholds_whole_set (test_rehearsal_set.RehearsalSetTests.test_missing_call_withholds_whole_set) ... ok\ntest_missing_sender_never_defaults (test_rehearsal_set.RehearsalSetTests.test_missing_sender_never_defaults) ... ok\ntest_nonempty_bounded_sets (test_rehearsal_set.RehearsalSetTests.test_nonempty_bounded_sets) ... ok\ntest_order_is_not_execution_order (test_rehearsal_set.RehearsalSetTests.test_order_is_not_execution_order) ... ok\ntest_relay_provenance_is_retained_and_validated (test_rehearsal_set.RehearsalSetTests.test_relay_provenance_is_retained_and_validated) ... ok\ntest_revert_is_not_success (test_rehearsal_set.RehearsalSetTests.test_revert_is_not_success) ... ok\ntest_rpc_failure_is_inconclusive (test_rehearsal_set.RehearsalSetTests.test_rpc_failure_is_inconclusive) ... ok\ntest_same_call_cannot_be_counted_twice (test_rehearsal_set.RehearsalSetTests.test_same_call_cannot_be_counted_twice) ... ok\ntest_saved_real_set (test_rehearsal_set.RehearsalSetTests.test_saved_real_set) ... ok\ntest_strict_json_and_size (test_rehearsal_set.RehearsalSetTests.test_strict_json_and_size) ... ok\ntest_unexpected_entry (test_rehearsal_set.RehearsalSetTests.test_unexpected_entry) ... ok\ntest_unknown_fields_are_rejected (test_rehearsal_set.RehearsalSetTests.test_unknown_fields_are_rejected) ... ok\ntest_workspace_containment (test_rehearsal_set.RehearsalSetTests.test_workspace_containment) ... ok\ntest_wrong_identifier_does_not_remap_evidence (test_rehearsal_set.RehearsalSetTests.test_wrong_identifier_does_not_remap_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 27 tests in 0.027s\n\nOK\n"
+    },
+    {
+      "suite": "return-lens",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/return-lens",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests": 12,
+      "output": "test_cli_demo_and_invalid_layout (test_return_lens.ReturnLensTests.test_cli_demo_and_invalid_layout) ... ok\ntest_dynamic_corruption (test_return_lens.ReturnLensTests.test_dynamic_corruption) ... ok\ntest_dynamic_tuple_and_utf8_byte_length (test_return_lens.ReturnLensTests.test_dynamic_tuple_and_utf8_byte_length) ... ok\ntest_empty_dynamic_and_int256_boundaries (test_return_lens.ReturnLensTests.test_empty_dynamic_and_int256_boundaries) ... ok\ntest_evidence_validation (test_return_lens.ReturnLensTests.test_evidence_validation) ... ok\ntest_invalid_type_lists (test_return_lens.ReturnLensTests.test_invalid_type_lists) ... ok\ntest_invalid_utf8_is_inconclusive (test_return_lens.ReturnLensTests.test_invalid_utf8_is_inconclusive) ... ok\ntest_revert_transport_and_invalid_saved_interpretation (test_return_lens.ReturnLensTests.test_revert_transport_and_invalid_saved_interpretation) ... ok\ntest_saved_real_zto_and_context (test_return_lens.ReturnLensTests.test_saved_real_zto_and_context) ... ok\ntest_static_noncanonical_values (test_return_lens.ReturnLensTests.test_static_noncanonical_values) ... ok\ntest_static_tuple (test_return_lens.ReturnLensTests.test_static_tuple) ... ok\ntest_wrong_layout_extra_and_truncated_bytes (test_return_lens.ReturnLensTests.test_wrong_layout_extra_and_truncated_bytes) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.005s\n\nOK\n"
+    }
+  ],
+  "total_tests": 79,
+  "passed": true
+}

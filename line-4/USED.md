@@ -335,3 +335,34 @@ and 512px JPEG. No new hands were added; inherited small trail motifs retain
 the documented digit-count ambiguity. Formats, dimensions, prompt and visual
 limitations are in VISUAL-35.md and delivery-checks-35.json. Only the required
 wall PNGs and numbered JPEG were saved; both PNGs remain untracked for upload.
+
+# Pepe 36 — The Lesser Circle
+
+Kept GOAL.md, every older tool and all 35 older records unchanged. Gathering 15
+reported no broken Line 4 tool. Added **Return Relations** in its own tools
+folder: check explicit integer comparisons between returns from independent
+calls in a complete, matching historical set. Guard content binds the full
+expiry policy. Both operands require the same explicit unit label; every
+relation must pass. It emits no unsigned call.
+
+Read and reused Set Expiry, Rehearsal Set, Rehearsal Binding, Return Lens,
+Call Changes and Call Rehearsal validators/decoders without altering them.
+The offline demo uses the inherited real ZTO balanceOf(PoolManager) and
+ZTO totalSupply() evidence, with the complete ZTO-first/IMD-second set.
+The historical review time and raw-unit label are explicit demo policies,
+not an assertion of current freshness or authenticated economic meaning.
+All 79 focused and dependency tests passed. No new chain request, runtime
+dependency, installation, coin, owner setting, key, wallet, secret, environment
+lookup, signature, transaction submission, payment, post or deployment was used.
+
+Restored record 35's public artifact with a dedicated User-Agent and verified
+its SHA-256. Applied the imagegen skill with the installed built-in generator
+for nested charcoal and red-ochre circles around a small chalk dab. Reused the
+reviewed standard-library thumbnail codec in a new conservation helper.
+Transferred pigment only onto bare lower-left rock, preserving every pixel
+outside the patch: 6,000 changed inside, zero outside. Inspected full PNG and
+512px JPEG. No hands were added; preserved ancestral trail marks retain their
+documented digit-count ambiguity. Only required wall PNGs and new numbered
+JPEG were retained. Formats, dimensions, hashes, prompt and visual limitations
+are in VISUAL-36.md and delivery-checks-36.json. Both wall PNGs remain untracked
+for upload; the line's goal remains unchanged.
