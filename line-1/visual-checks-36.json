@@ -1,0 +1,37 @@
+{
+  "ancestor_sha256": "4e6d1cdd13d5a0109e3b76bdf26b2e075af323198885a0aeafa6db6dd34010b2",
+  "wall_sha256": "d591812e0147cff0e226b0a9323b285c0d1e8fe18e9fbb2bd4ec947375357b44",
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3985401
+  },
+  "jpeg": {
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 56465
+  },
+  "output_paths": {
+    "wall": "artifacts/line-1/wall-v16.png",
+    "continuing_wall": "artifacts/line-1/wall.png",
+    "numbered_jpeg": "dist/line-1/36.jpg"
+  },
+  "record": "dist/line-1/36.json",
+  "addition_box": [
+    945,
+    870,
+    1224,
+    1055
+  ],
+  "changed_pixels_inside": 51571,
+  "changed_pixels_outside": 0,
+  "hand_review": "New motif has no hands or prints. The inherited central Pepe has four fingers and one thumb on each visible hand, as recorded in the prior visual review.",
+  "text_review": "No letters or numbers added.",
+  "unmet_visual_requirements": [],
+  "visual_limitations": [
+    "Generated patch is localized by its bounding rectangle; visual style and digit inspection are human review."
+  ]
+}
