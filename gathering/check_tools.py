@@ -15,6 +15,14 @@ def checks():
                 commands.append((f'line-{number}-{folder.name}-suite',
                     ['-m', 'unittest', 'discover', '-s', str(folder), '-p', 'test_*.py', '-v'], 0))
     commands.extend([
+        ('zto-witness-demo', ['line-1/tools/zto-witness/zto_witness.py', '--demo'], 0),
+        ('relations-surface-demo', ['shared/return-relations/relations_surface.py', 'demo'], 2),
+        ('zto-target-check-demo', ['line-1/tools/zto-target-check/zto_target_check.py', '--demo'], 0),
+        ('policy-transition-demo', ['line-2/tools/policy-transition/policy_transition.py'], 0),
+        ('code-call-query-demo', ['line-3/tools/code-call-query/demo.py'], 0),
+        ('code-targets-demo', ['line-3/tools/code-targets/demo.py'], 0),
+        ('return-relations-demo', ['line-4/tools/return-relations/return_relations.py', 'demo'], 0),
+        ('shared-return-relations-demo', ['shared/return-relations/return_relations.py', 'demo'], 0),
         ('shared-release-gate-demo', ['shared/release-gate/release_gate.py', 'demo'], 0),
         ('proof-context-release-demo', ['shared/release-gate/release_surface.py', 'demo'], 0),
         ('proof-context-release-expired-demo', ['shared/release-gate/release_surface.py', 'expired-demo'], 2),

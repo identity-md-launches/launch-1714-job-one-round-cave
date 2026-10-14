@@ -1,0 +1,57 @@
+{
+  "schema": "rehearsal-return-relations-v1",
+  "verdict": "consistent",
+  "reason": "complete historical set and every declared relation match",
+  "policy_sha256": "52f60a889fa0b405a7a2169c339f5414cd41209337427cdcc1d8da42a5303c06",
+  "guard_sha256": "9cca2ab5cb5583cf5a73ed96f24c7d2ff1b738abe58e95b51c6e6b1ed72c32ad",
+  "checks": [
+    {
+      "id": "balance-within-supply",
+      "left": {
+        "id": "zto-manager-balance",
+        "index": 0
+      },
+      "op": "le",
+      "right": {
+        "id": "zto-supply",
+        "index": 0
+      },
+      "left_value": "304756253603277900345322340",
+      "right_value": "1000000000000000000000000000",
+      "passed": true
+    }
+  ],
+  "decoded": [
+    {
+      "id": "zto-manager-balance",
+      "unit": "zto-base-units",
+      "values": [
+        {
+          "type": "uint256",
+          "value": "304756253603277900345322340"
+        }
+      ]
+    },
+    {
+      "id": "zto-supply",
+      "unit": "zto-base-units",
+      "values": [
+        {
+          "type": "uint256",
+          "value": "1000000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "limits": "Relations compare raw integers under reviewer-declared ABI layouts and units; neither ABI nor economic meaning is authenticated. The full set must bind at one exact historical block within the explicit review-time policy. Review time is supplied, not a live clock. Provider claims and content digests do not prove chain authenticity or reviewer identity. Calls are independent, not a stateful sequence. No current state, future execution, authority, gas or state effects are established. No call is released, signed or sent.",
+  "set_expiry": {
+    "verdict": "fresh",
+    "reason": "complete matching set is within the declared age window",
+    "evidence_sha256": "5590758e9417ae2e9df17e24cdbac9038f7201c7f6aa7dba982e655bb7eef099"
+  },
+  "block": {
+    "number": "0x18f99d1",
+    "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+    "timestamp": "0x6aceffd7"
+  }
+}

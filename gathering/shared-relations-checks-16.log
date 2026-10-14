@@ -1,0 +1,36 @@
+test_choices_must_cover_unrelated_member (test_relations_surface.RelationsSurfaceTests.test_choices_must_cover_unrelated_member) ... ok
+test_cli_demo_expected_refusal (test_relations_surface.RelationsSurfaceTests.test_cli_demo_expected_refusal) ... ok
+test_corrupted_proof_cannot_release (test_relations_surface.RelationsSurfaceTests.test_corrupted_proof_cannot_release) ... ok
+test_expired_policy_refuses (test_relations_surface.RelationsSurfaceTests.test_expired_policy_refuses) ... ok
+test_false_relation_skips_code_join (test_relations_surface.RelationsSurfaceTests.test_false_relation_skips_code_join) ... ok
+test_guard_digest_mismatch_skips_code_join (test_relations_surface.RelationsSurfaceTests.test_guard_digest_mismatch_skips_code_join) ... ok
+test_input_immutability (test_relations_surface.RelationsSurfaceTests.test_input_immutability) ... ok
+test_layout_interpretations_must_match (test_relations_surface.RelationsSurfaceTests.test_layout_interpretations_must_match) ... ok
+test_missing_unrelated_evidence_refuses_relations (test_relations_surface.RelationsSurfaceTests.test_missing_unrelated_evidence_refuses_relations) ... ok
+test_real_different_block_refused_without_partial_values (test_relations_surface.RelationsSurfaceTests.test_real_different_block_refused_without_partial_values) ... ok
+test_same_block_real_evidence_release_path (test_relations_surface.RelationsSurfaceTests.test_same_block_real_evidence_release_path) ... ok
+test_wrong_anchor_refuses (test_relations_surface.RelationsSurfaceTests.test_wrong_anchor_refuses) ... ok
+test_all_operators (test_return_relations.ReturnRelationsTests.test_all_operators) ... ok
+test_changed_unreferenced_member (test_return_relations.ReturnRelationsTests.test_changed_unreferenced_member) ... ok
+test_cli_exit_codes_and_duplicate_keys (test_return_relations.ReturnRelationsTests.test_cli_exit_codes_and_duplicate_keys) ... ok
+test_demo_offline (test_return_relations.ReturnRelationsTests.test_demo_offline) ... ok
+test_duplicate_and_unused_layouts (test_return_relations.ReturnRelationsTests.test_duplicate_and_unused_layouts) ... ok
+test_equality_and_inclusive_boundary (test_return_relations.ReturnRelationsTests.test_equality_and_inclusive_boundary) ... ok
+test_every_relation_must_pass (test_return_relations.ReturnRelationsTests.test_every_relation_must_pass) ... ok
+test_expiry_and_future_review (test_return_relations.ReturnRelationsTests.test_expiry_and_future_review) ... ok
+test_immutable_inputs (test_return_relations.ReturnRelationsTests.test_immutable_inputs) ... ok
+test_missing_sender_and_revert (test_return_relations.ReturnRelationsTests.test_missing_sender_and_revert) ... ok
+test_missing_unreferenced_member (test_return_relations.ReturnRelationsTests.test_missing_unreferenced_member) ... ok
+test_noncanonical_and_extra_return_bytes (test_return_relations.ReturnRelationsTests.test_noncanonical_and_extra_return_bytes) ... ok
+test_policy_substitution (test_return_relations.ReturnRelationsTests.test_policy_substitution) ... ok
+test_real_zto (test_return_relations.ReturnRelationsTests.test_real_zto) ... ok
+test_references_and_operator_refusals (test_return_relations.ReturnRelationsTests.test_references_and_operator_refusals) ... ok
+test_schema_and_layout_refusals (test_return_relations.ReturnRelationsTests.test_schema_and_layout_refusals) ... ok
+test_signed_and_tuple_index (test_return_relations.ReturnRelationsTests.test_signed_and_tuple_index) ... ok
+test_units_must_match (test_return_relations.ReturnRelationsTests.test_units_must_match) ... ok
+test_unknown_plan_member (test_return_relations.ReturnRelationsTests.test_unknown_plan_member) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 2.102s
+
+OK

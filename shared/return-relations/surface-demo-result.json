@@ -1,0 +1,90 @@
+{
+  "schema": "relations-surface-context-v1",
+  "verdict": "withheld",
+  "reason": "Code/call context did not align; all values and relations withheld.",
+  "input_sha256": {
+    "policy": "52f60a889fa0b405a7a2169c339f5414cd41209337427cdcc1d8da42a5303c06",
+    "guard": "9cca2ab5cb5583cf5a73ed96f24c7d2ff1b738abe58e95b51c6e6b1ed72c32ad",
+    "evidence": "5590758e9417ae2e9df17e24cdbac9038f7201c7f6aa7dba982e655bb7eef099",
+    "choices": "f9632e6b57de427e429664c1e7959ddb4fd93626471592df64b8b45de75b8b40",
+    "proofs": "d31eabb51a5d32a2d264f72e14e9b874a0c59ca915bb03e159974d54856736b1",
+    "anchor": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  "relation_check": {
+    "verdict": "consistent",
+    "reason": "complete historical set and every declared relation match",
+    "policy_sha256": "52f60a889fa0b405a7a2169c339f5414cd41209337427cdcc1d8da42a5303c06",
+    "guard_sha256": "9cca2ab5cb5583cf5a73ed96f24c7d2ff1b738abe58e95b51c6e6b1ed72c32ad"
+  },
+  "code_context": {
+    "verdict": "withheld",
+    "reason": "Fresh set failed code/call alignment; all decoded values withheld.",
+    "input_sha256": {
+      "policy": "52f60a889fa0b405a7a2169c339f5414cd41209337427cdcc1d8da42a5303c06",
+      "evidence": "5590758e9417ae2e9df17e24cdbac9038f7201c7f6aa7dba982e655bb7eef099",
+      "choices": "f9632e6b57de427e429664c1e7959ddb4fd93626471592df64b8b45de75b8b40",
+      "proofs": {
+        "imd-supply": "70c6518397cfc4f74cf0cc8a0f57706f5d020611bf7bfc3bac32b5e1ec5e3959",
+        "zto-manager-balance": "6d8cfd3b0ae6d13de4ca35d80a207b7cd973a47aed259960ba9bd1c4084f0c7c",
+        "zto-supply": "6d8cfd3b0ae6d13de4ca35d80a207b7cd973a47aed259960ba9bd1c4084f0c7c"
+      },
+      "anchor": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    "code_checks": [
+      {
+        "id": "zto-supply",
+        "verdict": "mismatch",
+        "failed_checks": [
+          "same_block_number",
+          "same_block_hash",
+          "same_block_timestamp"
+        ],
+        "proof_anchor": "unanchored-rpc-header",
+        "state_inclusion_verified": true,
+        "source": "https://ethereum-rpc.publicnode.com",
+        "transport": {
+          "kind": "contributor-relay",
+          "source_is_attribution_only": true,
+          "independent_provider_verified": false
+        }
+      },
+      {
+        "id": "zto-manager-balance",
+        "verdict": "mismatch",
+        "failed_checks": [
+          "same_block_number",
+          "same_block_hash",
+          "same_block_timestamp"
+        ],
+        "proof_anchor": "unanchored-rpc-header",
+        "state_inclusion_verified": true,
+        "source": "https://ethereum-rpc.publicnode.com",
+        "transport": {
+          "kind": "contributor-relay",
+          "source_is_attribution_only": true,
+          "independent_provider_verified": false
+        }
+      },
+      {
+        "id": "imd-supply",
+        "verdict": "mismatch",
+        "failed_checks": [
+          "same_block_number",
+          "same_block_hash",
+          "same_block_timestamp"
+        ],
+        "proof_anchor": "unanchored-rpc-header",
+        "state_inclusion_verified": true,
+        "source": "https://ethereum-rpc.publicnode.com",
+        "transport": {
+          "kind": "contributor-relay",
+          "source_is_attribution_only": true,
+          "independent_provider_verified": false
+        }
+      }
+    ]
+  },
+  "decoded_calls": null,
+  "relations": null,
+  "limits": "Historical independent call returns remain provider claims. Code proofs bind to supplied headers, not authenticated consensus. Signatures, integer types, units, review time and relations are reviewer choices. Structural selector evidence does not prove behavior. No current state, authority, future execution or stateful sequence is established. Nothing is signed or sent."
+}

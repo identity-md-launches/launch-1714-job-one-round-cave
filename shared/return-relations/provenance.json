@@ -1,0 +1,25 @@
+{
+  "source_line": 4,
+  "piece": "Return Relations",
+  "files": [
+    {
+      "source": "line-4/tools/return-relations/return_relations.py",
+      "source_sha256": "68f6adb67633037269b25bb7aff405f002ea930f5a4737cb5eef7d44602fe171",
+      "copy": "shared/return-relations/return_relations.py",
+      "copy_sha256": "31681ed3d9595b3d8dd1a856751463bc3b5c2a91135bcf3aa5dda216ba820575"
+    },
+    {
+      "source": "line-4/tools/return-relations/test_return_relations.py",
+      "source_sha256": "56dec40a1cd9c7e6d3b4fb5b0c9c02ed7a632710ffc99789131e015d97969738",
+      "copy": "shared/return-relations/test_return_relations.py",
+      "copy_sha256": "56dec40a1cd9c7e6d3b4fb5b0c9c02ed7a632710ffc99789131e015d97969738"
+    },
+    {
+      "source": "line-4/tools/return-relations/zto-relations-guard.json",
+      "source_sha256": "02a67112532478c7b18c0ca38b20b68b9a7ae5bd8c82281ade71b16d701fe0d1",
+      "copy": "shared/return-relations/zto-relations-guard.json",
+      "copy_sha256": "02a67112532478c7b18c0ca38b20b68b9a7ae5bd8c82281ade71b16d701fe0d1"
+    }
+  ],
+  "adaptation": "Only decoder import path changed to use shared/return-bounds; shared expiry/set evidence reused unchanged."
+}

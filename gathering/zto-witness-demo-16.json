@@ -1,0 +1,19 @@
+{
+  "schema": "zto-witness-demo-v1",
+  "mode": "single_source_historical_fixture",
+  "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+  "block": {
+    "number": "0x18f8a44",
+    "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+    "timestamp": "0x6ace4457"
+  },
+  "source": "https://ethereum-rpc.publicnode.com",
+  "active_liquidity_raw": "1395488085257384418720526",
+  "one_zto_local_quote": "0.000015292155595473",
+  "local_quote_status": "estimated",
+  "bound_released": false,
+  "reason": "One saved endpoint capture cannot satisfy the two-source witness gate.",
+  "limitations": [
+    "Historical fixture: no fresh RPC calls and no second source are claimed."
+  ]
+}

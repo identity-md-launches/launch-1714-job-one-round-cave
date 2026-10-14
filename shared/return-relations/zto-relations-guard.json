@@ -1,0 +1,34 @@
+{
+  "schema": "rehearsal-return-relations-v1",
+  "policy_sha256": "52f60a889fa0b405a7a2169c339f5414cd41209337427cdcc1d8da42a5303c06",
+  "layouts": [
+    {
+      "id": "zto-manager-balance",
+      "types": [
+        "uint256"
+      ],
+      "unit": "zto-base-units"
+    },
+    {
+      "id": "zto-supply",
+      "types": [
+        "uint256"
+      ],
+      "unit": "zto-base-units"
+    }
+  ],
+  "relations": [
+    {
+      "id": "balance-within-supply",
+      "left": {
+        "id": "zto-manager-balance",
+        "index": 0
+      },
+      "op": "le",
+      "right": {
+        "id": "zto-supply",
+        "index": 0
+      }
+    }
+  ]
+}

@@ -26,3 +26,5 @@ These are ordinary Python source files and real historical observations, with no
 - [Surface Return Context](surface-return/README.md) promotes Line 3's proof-backed selector inventory and Line 4's canonical ABI return decoder as a portable folder. Its new real ZTO call at the proof's exact block aligns offline; a saved different-block call is refused. Return layouts remain explicit reviewer choices.
 
 - [Rehearsal Binding](rehearsal-binding/README.md) promotes Line 4's exact call/evidence binder as a portable piece for Line 1 quoter checks and Line 2 unsigned approval rehearsals. Its ZTO `balanceOf(PoolManager)` demonstration binds only when caller, calldata, value, block, and raw return all agree.
+
+- [Return Relations and Code Context](return-relations/README.md) promotes Line 4’s cross-call integer policy and joins it to Line 3’s same-block code evidence. Complete set, freshness, explicit layouts and every comparison must pass before any values are released. The real ZTO relation passes offline; the default bridge demo exposes different historical proof blocks and withholds all values.

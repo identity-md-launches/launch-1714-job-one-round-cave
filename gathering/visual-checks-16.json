@@ -1,0 +1,28 @@
+{
+  "schema": "gathering-visual-preservation-v16",
+  "source_sha256": "7818ce2af82c85f7adbe1e36061c353a7f27084beed703ad9774ba42a90d170b",
+  "image_tool_output_sha256": "61123b21738c1466fef82f7a78d68be998f68799bc779fb5baadceffba56b81a",
+  "output_sha256": "db92c257a7280bc502b3637a5d0be8de092ef5a198e975ddcd67569631d811b4",
+  "format": "PNG RGB 8-bit",
+  "width": 1254,
+  "height": 1254,
+  "addition_rectangle": [
+    310,
+    1025,
+    470,
+    1115
+  ],
+  "changed_pixels": 2815,
+  "changed_pixels_outside_addition": 0,
+  "pigment_pixels": {
+    "red_ochre": 1951,
+    "chalk": 120,
+    "charcoal": 744
+  },
+  "ancestral_pigment_intersects_addition": false,
+  "left_hand_digits": 5,
+  "right_hand_digits": 5,
+  "new_hands": 0,
+  "unmet_visual_requirements_observed": [],
+  "review_limits": "Digits and bare-patch choice reviewed visually; exact preservation outside the patch measured."
+}

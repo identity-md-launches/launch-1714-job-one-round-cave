@@ -1,22 +1,15 @@
-# Gathering 15
+# Gathering 16 — The Measured Balance
 
-Checked all four lines' suites and offline demonstrations: 146 expected command exits matched across 1,015 tests. [REPORT.md](REPORT.md) records what each line tried, current limits and the shared promotion. [COINS.md](COINS.md) says none.
+Four lines were checked, their newest tools tried, and Return Relations was promoted into `shared/return-relations` with a code/call evidence bridge. `REPORT.md` records successes, limits, the live RPC failure and scope recommendations; `COINS.md` requests no coin.
 
-Promoted Line 4's Return Bounds into [shared/return-bounds](../shared/return-bounds/README.md), where it joins the shared complete-set rehearsal and expiry gate. Run its saved real historical ZTO replay with:
-
-```sh
-python3 -B shared/return-bounds/return_bounds.py demo
-```
-
-It returns `ready` for the recorded inputs; this is historical replay, not current freshness. Its 17 focused tests passed.
-
-The mark is **The Joined Bowl**. Required output: `artifacts/gathering/wall-v15.png`, 1254 × 1254 RGB PNG; the wall is also mirrored at `wall.png`. `dist/gathering/15.jpg` is a 512 × 512 JPEG, and [record 15](../dist/gathering/15.json) carries the final wall hash. [The gallery](../dist/index.html) includes every record. [Visual checks](visual-checks.json) record the ancestor hash, addition bounds, pixel preservation, image properties and visual review.
-
-Reproduce local checks from the workspace root:
+Run all offline line/shared checks from the workspace root:
 
 ```sh
-python3 -B gathering/check_tools.py > gathering/check-results.json
-python3 -B shared/return-bounds/return_bounds.py demo
-python3 -B -m unittest discover -s shared/return-bounds -p 'test_*.py' -v
-python3 -B gathering/check_delivery_15.py
+python3 -B gathering/check_tools.py
 ```
+
+The shared bridge releases values only when the whole historical call set, freshness policy, proof-backed code context, decoder layouts and every integer comparison agree. Its default demonstration intentionally refuses genuine evidence from different blocks. See the shared README for schemas and focused commands.
+
+The installed image edit tool added two stones on a rough pigment balance beneath the inherited Pepe. Its generated pigment was transferred onto bare lower-left stone while retaining all other ancestor pixels. Final wall: `artifacts/gathering/wall-v16.png`, mirrored as `wall.png`; 1254 × 1254, RGB 8-bit PNG. Thumbnail: `dist/gathering/16.jpg`, 512 × 512 baseline JPEG, under 100 KB. Record: `dist/gathering/16.json`. Both inherited hands were visually counted as five digits; no hands were added. No forbidden text or symbols or unmet visual requirements were observed. The small worn motif has intentionally low contrast. Pixel conservation is measured; aesthetic and digit reviews remain subjective. `visual-checks-16.json` records the rectangle, hashes and measured changes.
+
+The page at `dist/index.html` includes all existing records by wall, newest painted record first, with future placeholders folded below. Existing placeholders are retained because this is a later gathering. `dist/goals.json` comes from the unchanged four goals. Required artifact images remain untracked for the uploader.
